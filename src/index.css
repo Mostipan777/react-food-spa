@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: calc(100vh - 70px - 62px);
+  padding: 1.5rem 1rem;
+}
+
+.header {
+  padding: 0.2rem 0 0.3rem 1rem;
+}
+
+.foods {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.custom-card {
+  padding: 0.3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-text {
+  flex: 1;
+}
+
+.meal-img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.meal-card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
