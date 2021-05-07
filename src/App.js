@@ -11,7 +11,7 @@ import Meal from './pages/Meal';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/react-food-spa">
         <Header />
         <main className="container content">
           <Switch>
